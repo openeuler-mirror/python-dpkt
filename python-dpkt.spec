@@ -1,9 +1,9 @@
 %global _empty_manifest_terminate_build 0
 Name:		python-dpkt
 Version:	1.9.7.2
-Release:	1
+Release:	2
 Summary:	fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
-License:	BSD
+License:	BSD-3-Clause
 URL:		https://github.com/kbandla/dpkt
 Source0:	https://files.pythonhosted.org/packages/95/51/923b370880eff9b62fe4fe965a916da709022a02669c670731da69088e93/dpkt-1.9.7.2.tar.gz
 BuildArch:	noarch
@@ -71,5 +71,8 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Mon May 09 2022 xigaoxinyan <xigaoxinyan@h-partners.com> - 1.9.7.2-2
+- License compliance rectification
+
 * Thu Sep 09 2021 Python_Bot <Python_Bot@openeuler.org> - 1.9.7.2-1
 - Package Init
